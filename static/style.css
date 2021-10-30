@@ -9,14 +9,14 @@ html {
 }
 h5 {
     font-family: 'Rubik', sans-serif;
-    font-size: 2vw;
+    font-size: 30px;
     margin: 10px 0 5px 0;
 }
 ul {
-    font-size: 2vw;
+    font-size: 20px;
 }
 li {
-    font-size: 2vw;
+    font-size: 20px;
 }
 .right-column {
     float: right;
@@ -40,20 +40,20 @@ li {
 }
 .job {
     color:gray;
-    font-size: 1.5vw;
+    font-size: 20px;
     font-weight: bold;
 }
 .school {
-    font-size: 1.5vw;
+    font-size: 20px;
     font-family: 'Rubik', sans-serif;
 }
 h2 {
-    font-size: 1.5vw;
+    font-size: 20px;
     font-family: 'Rubik', sans-serif;
 }
 .contact {
-    margin-top: 0vw;
-    font-size: 1.5vw;
+    margin-top: 0px;
+    font-size: 20px;
     font-family: 'Rubik', sans-serif;
 }
 a {
@@ -62,8 +62,17 @@ a {
 }
 .par {
     margin-left: 20px;
-    font-size: 2vw;
+    font-size: 20px;
 }
 img {
     width: 100%;
+}
+@media screen and (max-width: 800px) {
+    .left-column, .right-column{
+        width: 100%;
+        padding: 0;
+    }
+    .left-column {
+        position: relative;
+    }
 }
